@@ -30,7 +30,7 @@ std::string imuTopic="/camera/imu";
 
 int main(int argc, char **argv)
 {
-	bag.open("/home/wwj/Datasets/ourdata/out-0901-03-01.bag",rosbag::bagmode::Write);
+	bag.open("/home/xxx/xxx/xxx/xxx.bag",rosbag::bagmode::Write);
 	
 	ros::init(argc,argv,"listener");
 	ros::NodeHandle nh;
